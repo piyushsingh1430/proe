@@ -1,80 +1,31 @@
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #ece9e6, #ffffff);
-  color: #333;
-  padding: 2em;
-  scroll-behavior: smooth;
+body{
+    color: rgb(114, 139, 0);
+    background-color: #EEEFE0;
+    
+}
+button{
+    color: rgb(255, 0, 170);
+    font-size: 30px;
+}
+h2{
+    font-weight: 800px;
+}
+p
+{
+    font-size: 43px;
+    color: gold;
+}
+img{
+    height: 450px;
+    border: 22px solid;
+    color: #efe0e1;
+    border-radius: 600px;
+}
+table{
+    background-color: cornsilk;
+}
+a{
+    color: aqua;
+    height: 900px;
 }
 
-header, section {
-  text-align: center;
-  padding: 3em 1em;
-  animation: fadeIn 1.5s ease-in-out forwards;
-}
-
-input, textarea, button {
-  display: block;
-  margin: 1em auto;
-  padding: 0.75em;
-  width: 80%;
-  max-width: 400px;
-  font-size: 1em;
-}
-
-button {
-  background-color: #007acc;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.fade-in {
-  opacity: 0;
-  animation: fadeIn 2s ease-in-out forwards;
-}
-
-.slide-up {
-  opacity: 0;
-  transform: translateY(20px);
-  animation: slideUp 1s ease-out forwards;
-}
-
-.slide-left {
-  opacity: 0;
-  transform: translateX(-50px);
-  animation: slideLeft 1s ease-out forwards;
-}
-
-.slide-right {
-  opacity: 0;
-  transform: translateX(50px);
-  animation: slideRight 1s ease-out forwards;
-}
-
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes slideUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes slideLeft {
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideRight {
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
