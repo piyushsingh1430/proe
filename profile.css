@@ -1,0 +1,27 @@
+body{
+    color: rgb(114, 139, 0);
+    background-color: #EEEFE0;
+    
+}
+button{
+    color: rgb(255, 0, 170);
+    font-size: 30px;
+}
+h2{
+    font-weight: 800px;
+}
+p
+{
+    font-size: 43px;
+    color: gold;
+}
+img{
+    height: 450px;
+}
+table{
+    background-color: cornsilk;
+}
+a{
+    color: aqua;
+    height: 900px;
+}
